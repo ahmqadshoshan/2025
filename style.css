@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #007bff;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #e7e7e7;
+}
+
+main {
+    padding: 20px;
+}
+
+#daily-tasks li {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#daily-tasks li.done {
+    background-color: #d4edda;
+    text-decoration: line-through;
+}
+
+#daily-tasks li.not-done {
+    background-color: #f8d7da;
+}
+
+#log-list li {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
